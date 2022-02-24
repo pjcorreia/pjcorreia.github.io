@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
       return cache.addAll([
         './reg1.html',
         './index.html',
-        './sw.j',
+        './sw.js',
         './app.js'
       ]);
     })
