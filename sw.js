@@ -1,6 +1,6 @@
-self.addEventListener('install', function(event) => {
+self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v1').then((cache) => {
+    caches.open('v1').then(function(cache) {
       return cache.addAll([
         './reg1.html',
         './index.html',
